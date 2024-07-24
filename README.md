@@ -4,28 +4,29 @@ url,surfaceofplot,gardenarea,monthlycharges,roomcount,kitchen
 ### Null values dropped
 stateofbuilding,district,province,region
 ### Null values filled by
-constructionyear = mean+ outliers         
-bathroomcount = median
-garden = 0
-fireplace = 0
-floodingzone = 'NON_FLOOD_ZONE'
-peb= mode
-swimmingpool = 0
-numberoffacades = median
-livingarea = median
-terrace = 0
-toiletcount = median
-furnished = 0
+constructionyear = mean+ outliers<br/>    
+bathroomcount = median<br/>
+garden = 0<br/>
+fireplace = 0<br/>
+floodingzone = 'NON_FLOOD_ZONE'<br/>
+peb= mode<br/>
+swimmingpool = 0<br/>
+numberoffacades = median<br/>
+livingarea = median<br/>
+terrace = 0<br/>
+toiletcount = median<br/>
+furnished = 0<br/>
 
 ### String covnverted to numerical values by original_ecnoder
 
-region,district,locality,province, stateofbuilding,subtypeofproperty
+region,district,locality,province<br/> 
+stateofbuilding,subtypeofproperty
 
 ### choosen features
 
-'bathroomcount','bedroomcount','swimmingpool','subtypeofproperty_encoded',
-'numberoffacades','garden','terrace','province_encoded','furnished',
-'livingarea','locality_encoded','typeofproperty','region_encoded'
+'bathroomcount','bedroomcount','swimmingpool','subtypeofproperty_encoded',<br/>
+'numberoffacades','garden','terrace','province_encoded','furnished',<br/>
+'livingarea','locality_encoded','typeofproperty','region_encoded'<br/>
 
 
 ### Modules

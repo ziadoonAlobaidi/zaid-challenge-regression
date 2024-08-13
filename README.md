@@ -30,10 +30,10 @@ git clone https://github.com/yourusername/zaid-challenge-regression.git
 cd zaid-challenge-regression
 pip install -r requirements.txt
 streamlit run app.py
+```
 
 
 
--
 
 
 
